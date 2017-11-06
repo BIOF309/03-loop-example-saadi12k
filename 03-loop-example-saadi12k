@@ -1,0 +1,11 @@
+#A for loop is helpful to get the sum of all integers (or any numbers) in a list
+#first you define your list or alternatively import it
+numbers=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50]
+#then you set a counter
+summation=0
+#then you write a for loop to add each individual value to the counter one at a time
+for number in range(len(numbers)):
+    summation += number
+#then you print your counter which should give you the sum
+print(summation)
+#the loop is simple but it demonstrates the principals of a for loop
